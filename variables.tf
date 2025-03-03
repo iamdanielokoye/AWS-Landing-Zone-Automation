@@ -5,12 +5,12 @@ variable "aws_region" {
 }
 
 variable "organization_id" {
-    description = "AWS Organization ID"
-    type        = string  
+  description = "AWS Organization ID"
+  type        = string
 }
 
 variable "policy_name" {
-    description = "Name of the IAM policy"
-    type        = string
-    default     = "AdminBoundaryPolicy"
+  description = "Name of the IAM policy"
+  type        = string
+  default     = "AdminBoundaryPolicy"
 }
