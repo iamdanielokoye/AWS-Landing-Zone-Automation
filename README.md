@@ -26,12 +26,7 @@ This project automates the setup and management of an AWS Landing Zone, providin
     cd aws-landing-zone-automation
     ```
 
-2. Install required Python packages:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-3. Initialize and apply Terraform configuration:
+2. Initialize and apply Terraform configuration:
     ```sh
     terraform init
     terraform apply
@@ -42,7 +37,7 @@ This project automates the setup and management of an AWS Landing Zone, providin
 1. Configure your AWS CLI with the necessary permissions.
 2. Run the automation script:
     ```sh
-    python automate_landing_zone.py
+    python scripts/automate_landing_zone.py
     ```
 
 ## License
